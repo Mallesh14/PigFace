@@ -1,0 +1,106 @@
+body{
+    background-color: lightskyblue;
+        display: flex;
+        justify-content: center; /* Centers horizontally */
+        align-items: center;
+        height: 100vh;
+        margin: 0;}
+.face{
+    width: 400px;
+    height: 400px;
+    background-color: hotpink;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+    border: 6px solid black;
+}
+.eyes{
+    position: relative;
+    /* top: 70px; */
+}
+.righteye{
+    position:absolute;
+    width: 100px;
+    height: 100px;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    top: 70px;
+    left: 50px;
+    border: 6px solid black;
+}
+.lefteye{
+        position:absolute;
+        width: 100px;
+        height: 100px;
+        background-color: whitesmoke;
+        border-radius: 50%;
+        top: 70px;
+        left: 250px;
+        border: 6px solid black;
+    }
+.rightin{
+    position:absolute;
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 50%;
+    top: 108px;
+    left: 84px;
+}
+.leftin{
+    position:absolute;
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 50%;
+    top: 108px;
+    left: 284px;
+}
+.mouth{
+    position: absolute;
+    width: 250px;
+    height: 100px;
+    background-color: crimson;
+    border-radius: 40px;
+    top: 230px;
+    left: 70px;
+}
+.noseleft{
+    position: absolute;
+    width: 50px;
+    height: 60px;
+    background-color: black;
+    border-radius: 50%;
+    top: 16px;
+    left: 30px;
+}
+.noseright{
+    position: absolute;
+    width: 50px;
+    height: 60px;
+    background-color: black;
+    border-radius: 50%;
+    top: 16px;
+    left: 160px;
+}
+.earleft{
+    width: 100px;
+    height: 50px;
+    border-radius: 100px 100px 0 0;
+    background-color: hotpink;
+    border: 6px solid black;
+    transform: rotate(-39deg);
+    margin-top: -10px;
+    margin-left: 10px;
+}
+    /* transform: rotate(80deg); */
+.earright{
+    width: 100px;
+    height: 50px;
+    border-radius: 100px 100px 0 0;
+    background-color: hotpink;
+    border: 6px solid black;
+    transform: rotate(40deg);
+    margin-top: -57px;
+    margin-left: 293px;
+}
